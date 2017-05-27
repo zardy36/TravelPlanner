@@ -1,6 +1,6 @@
 # travel-planner-js-mvc
 
-This is an javascript mvc example.
+This is a javascript mvc example with JQuery.
 
 
 
