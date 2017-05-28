@@ -1,0 +1,10 @@
+*,
+*:before,
+*:after {box-sizing: border-box;}
+
+.note {
+    margin: 15px;
+    border: 1px solid;
+    width: 200 px;
+    height: 50 px;
+}
