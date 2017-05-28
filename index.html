@@ -3,16 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <title>travel-planner-js-mvc</title>
+<link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
 <h3>travel-planner</h3>
-<input type="text" value="activity" class="act-name" />
-<input type="button" value="add activity" class="add-act" />
-<input type="button" value="clear" class="clear-act" />
-<ul class="act-list" id="act-list">
-	
-</ul>
+<div class="view-add">
+	add<hr />
+	title<input type="text" value="activity" class="act-name" /><br />
+	place<input type="text" value="Taipei" class="act-place" /><br />
+	date<input type="text" value="2017/06/01" class="act-date" /><br />
+	desc<input type="text" value="desc" class="act-desc" /><br />
+	<input type="button" value="add activity" class="add-act" />
+	<input type="button" value="clear" class="clear-act" /><br />
+</div>
+<div class="view-list">
+	list<hr />
+	<div class="act-list" id="act-list">	
+	</div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/app.js"></script>
 </body>
